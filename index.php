@@ -49,6 +49,18 @@
             <div class="btn btn-info btn-lg m-lg-3">
                 <a href="./Ejercicio6/index.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 6</a>
             </div>
+
+            <div class="btn btn-info btn-lg m-lg-3">
+                <a href="./Ejercicio9/index.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 9</a>
+            </div>
+
+            <div class="btn btn-info btn-lg m-lg-3">
+                <a href="./Ejercicio10/index.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 10</a>
+            </div>
+
+            <div class="btn btn-info btn-lg m-lg-3">
+                <a href="./Ejercicio11/index.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 11</a>
+            </div>
         </div>
     </div>
 

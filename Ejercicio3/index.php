@@ -40,6 +40,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['texto']) && isset($_PO
             <a href="../index.php" class="text-decoration-none text-white fw-bold">VOLVER al INICIO</a>
         </div>
 
+        <div class="d-flex justify-content-center align-items-center mt-5">
+            <iframe src="../Consignas/Ejercicio%201-5%20Consignas.pdf" width="600" height="600"></iframe>
+        </div>
+
         <h4 class="text-center mt-5 text-white fw-bold">INGRESE los TEXTOS a CONCATENAR</h4>
 
         <form action="" method="post" class="d-flex flex-column align-items-center">

@@ -45,6 +45,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nombre']) && isset($_P
             <a href="../index.php" class="text-decoration-none text-white fw-bold">VOLVER al INICIO</a>
         </div>
 
+        <div class="d-flex justify-content-center align-items-center mt-5">
+            <iframe src="../Consignas/Ejercicio%206%20y%207%20consigna.pdf" width="600" height="600"></iframe>
+        </div>
+
         <h4 class="text-center mt-5 text-white fw-bold">INGRESE el HORARIO del DÍA para SALUDAR y el NOMBRE COMPLETO de la PERSONA</h4>
 
         <form action="" method="post" class="d-flex flex-column align-items-center">
