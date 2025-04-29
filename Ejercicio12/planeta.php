@@ -2,15 +2,14 @@
 $suma = 0;
 $resultados = [];
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['dados'])) {
-    $cantidad = intval($_POST['dados']);
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['planeta']) && isset($_POST['nombre'])) {
 
-    for ($i = 0; $i < $cantidad; $i++) {
-        $numeroDado = rand(1, 6);
-        $direccion = '../Imagenes/dado' . $numeroDado . '.png';
-        echo "<img src='$direccion' style='width: 200px; margin: 20px;'>";
-        $suma += $numeroDado;
-        $resultados[] = $numeroDado;
+    $cantidadVisitantes = intval($_POST['nombre']);
+
+    for ($i = 0; $i < $cantidadVisitantes; $i++) {
+        $nombrePlaneta = $_POST['planeta'];
+        $resultados[] = $nombrePlaneta;
+        $suma += $nombrePlaneta;
     }
 }
 ?>
@@ -48,11 +47,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['dados'])) {
     <?php if (!empty($resultados)): ?>
         <h4 class="text-center mt-5 text-white fw-bold">RESULTADO OBTENIDO: <?= $suma ?></h4>
 
-        <div class="d-flex justify-content-center align-items-center mt-3">
-            <?php foreach ($resultados as $valor): ?>
-                <div class="text-white mx-2 fw-bold">[<?= $valor ?>]</div>
-            <?php endforeach; ?>
-        </div>
     <?php else: ?>
         <h4 class="text-center mt-5 text-white fw-bold">No se seleccionó cantidad de dados.</h4>
         <div class="text-center">

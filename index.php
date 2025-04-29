@@ -61,6 +61,22 @@
             <div class="btn btn-info btn-lg m-lg-3">
                 <a href="./Ejercicio11/index.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 11</a>
             </div>
+
+            <div class="btn btn-info btn-lg m-lg-3">
+                <a href="./Ejercicio12/practica.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 12</a>
+            </div>
+
+            <div class="btn btn-info btn-lg m-lg-3">
+                <a href="./Ejercicio13/index.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 13</a>
+            </div>
+
+            <div class="btn btn-info btn-lg m-lg-3">
+                <a href="./Ejercicio14/index.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 14</a>
+            </div>
+
+            <div class="btn btn-info btn-lg m-lg-3">
+                <a href="./Ejercicio15/index.php" class="text-decoration-none text-white text-xxl-center">Ejercicio 15</a>
+            </div>
         </div>
     </div>
 
